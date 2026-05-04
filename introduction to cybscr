@@ -1,0 +1,163 @@
+# 🛡️ Malware Türleri (Cybersecurity Notes)
+
+## 📌 1. Spyware
+**Tanım:**  
+Kullanıcının bilgisi olmadan sistemdeki aktiviteleri izleyen yazılımdır.
+
+**Amaç:**  
+- Kişisel verileri çalmak (şifreler, kredi kartı bilgileri)
+
+**Örnek:**  
+- Keylogger (klavye girişlerini kaydeder)
+
+**Bulaşma Yolları:**  
+- Sahte yazılımlar  
+- Şüpheli indirmeler  
+
+**Korunma:**  
+- Antivirüs kullanmak  
+- Güvenilmeyen dosyaları indirmemek  
+
+---
+
+## 📌 2. Adware
+**Tanım:**  
+Kullanıcıya istenmeyen reklamlar gösteren yazılımdır.
+
+**Amaç:**  
+- Reklam geliri elde etmek  
+
+**Belirtiler:**  
+- Sürekli pop-up reklamlar  
+
+**Bulaşma Yolları:**  
+- Ücretsiz programlarla birlikte gelir  
+
+**Korunma:**  
+- Güvenilir kaynaklardan yazılım indirmek  
+
+---
+
+## 📌 3. Backdoor
+**Tanım:**  
+Sisteme yetkisiz erişim sağlayan gizli giriş noktasıdır.
+
+**Amaç:**  
+- Sisteme uzaktan erişim  
+
+**Tehlike:**  
+- Saldırgan sistem üzerinde tam kontrol sağlayabilir  
+
+**Korunma:**  
+- Güncel yazılım kullanmak  
+- Güvenlik açıklarını kapatmak  
+
+---
+
+## 📌 4. Ransomware
+**Tanım:**  
+Dosyaları şifreleyip fidye isteyen zararlı yazılım türüdür.
+
+**Amaç:**  
+- Para kazanmak  
+
+**Örnek Senaryo:**  
+- Dosyalar kilitlenir → ödeme istenir  
+
+**Korunma:**  
+- Düzenli yedek almak  
+- Şüpheli e-postalara dikkat etmek  
+
+---
+
+## 📌 5. Scareware
+**Tanım:**  
+Kullanıcıyı korkutarak sahte yazılım satın aldırmaya çalışan zararlı yazılım.
+
+**Örnek:**  
+- “Bilgisayarınız virüslü!” sahte uyarıları  
+
+**Amaç:**  
+- Kullanıcıyı kandırmak  
+
+**Korunma:**  
+- Bilinmeyen uyarılara güvenmemek  
+
+---
+
+## 📌 6. Rootkit
+**Tanım:**  
+Sistemde gizlenerek uzun süre fark edilmeden çalışan zararlı yazılım.
+
+**Amaç:**  
+- Kalıcı erişim sağlamak  
+
+**Tehlike:**  
+- Tespiti çok zordur  
+
+**Korunma:**  
+- Güvenlik taramaları yapmak  
+- Sistem güncellemelerini aksatmamak  
+
+---
+
+## 📌 7. Virus
+**Tanım:**  
+Kendini başka dosyalara ekleyerek yayılan zararlı yazılım.
+
+**Özellik:**  
+- Çalışmak için kullanıcı etkileşimi gerekir  
+
+**Yayılma:**  
+- USB, dosya paylaşımı  
+
+**Korunma:**  
+- Antivirüs kullanmak  
+- Bilinmeyen dosyaları açmamak  
+
+---
+
+## 📌 8. Trojan Horse (Truva Atı)
+**Tanım:**  
+Masum bir yazılım gibi görünen ama zararlı olan yazılım.
+
+**Amaç:**  
+- Sisteme sızmak  
+
+**Örnek:**  
+- Crackli programlar  
+
+**Korunma:**  
+- Lisanssız yazılımlardan kaçınmak  
+
+---
+
+## 📌 9. Worm
+**Tanım:**  
+Kendi kendine çoğalarak ağ üzerinden yayılan zararlı yazılım.
+
+**Özellik:**  
+- Kullanıcı etkileşimi gerekmez  
+
+**Tehlike:**  
+- Çok hızlı yayılır  
+
+**Korunma:**  
+- Güvenlik duvarı kullanmak  
+- Ağ güvenliğini sağlamak  
+
+---
+
+## 🧠 Mini Karşılaştırma
+
+| Tür         | Kullanıcı Etkileşimi | Yayılma Şekli        | Ana Amaç         |
+|------------|---------------------|----------------------|------------------|
+| Virus      | ✅ Gerekli           | Dosya                | Yayılmak         |
+| Worm       | ❌ Gerekmez          | Ağ                   | Hızlı yayılma    |
+| Trojan     | ✅ Gerekli           | Kullanıcı kandırma   | Sisteme sızma    |
+| Ransomware | ✅ Gerekli           | Dosya / Email        | Para kazanmak    |
+
+---
+
+## 🎯 Not
+Bu notlar başlangıç seviyesi siber güvenlik eğitimi kapsamında hazırlanmıştır.
